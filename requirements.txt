@@ -7,3 +7,4 @@ pillow
 decorator
 proglog
 tqdm
+moviepy
