@@ -1,5 +1,9 @@
 import streamlit as st
-from moviepy.editor import *
+from moviepy.editor import (
+    VideoFileClip,
+    ImageClip,
+    TextClip,
+    CompositeVideoClip)
 import tempfile
 
 st.title("Creator Studio Pro")
